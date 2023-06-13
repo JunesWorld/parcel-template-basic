@@ -19,7 +19,7 @@ Static이라는 폴더를 이 package가 dist 파일로 자동으로 복붙해�
 Terminal
 - `npm install -D parcel-plugin-static-files-copy`
 
-package.json
+package.json : parcel-bundler가 복사해서 dist 파일로 복사해줄 정적 폴더 경로 명시
 ``` 
 "staticFiles": {
   "staticPath": "static"
