@@ -58,3 +58,16 @@ rc = Runtime Configuration = 구성 파일</br>
 - Node.js에서는 지원하지 X -> CommonJS
 - import = require()
 - export = module.exports
+
+## Postcss / Autoprefixer Version 충돌 해결하기
+
+Autoprefixer Version 9로 변경
+
+Terminal
+```bash
+npm i -D autoprefixer@9
+```
+
+## 공급 업체 접두사가 잘 적용되었는지 확인 방법
+
+scss파일에 ```display: flex;``` 적용
