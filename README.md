@@ -71,3 +71,15 @@ npm i -D autoprefixer@9
 ## 공급 업체 접두사가 잘 적용되었는지 확인 방법
 
 scss파일에 ```display: flex;``` 적용
+
+## Babel
+
+ES6코드를 이전 JavaScript 엔진에서 실행할 수있는 이전 버전과 호환되는 JavaScript 버전으로 변환하는데 주로 사용되는 무료 오픈 소스 JavaScript 트랜스 컴파일러(코드 변환).
+
+Terminal
+```bash
+npm i -D @babel/core @babel/preset-env
+```
+
+- .babelrc.js 파일 생성 : 작성하는 모든 JS 파일은 ES5 형태로 browser에서 동작
+  - package.json : browserslist 
