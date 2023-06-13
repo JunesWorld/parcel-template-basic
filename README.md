@@ -83,3 +83,6 @@ npm i -D @babel/core @babel/preset-env
 
 - .babelrc.js 파일 생성 : 작성하는 모든 JS 파일은 ES5 형태로 browser에서 동작
   - package.json : browserslist 영향 받는다.
+
+- 비동기 async 오류 해결
+  - ```npm i -D @babel/plugin-transform-runtime```
