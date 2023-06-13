@@ -13,7 +13,7 @@ Web에서 확인하는 HTML파일은 dist안에 있는 파일이다.</br>
 
 ## parcel plugin static files copy
 
-Static이라는 폴더를 이 package가 dist 파일로 복붙해주는 역할</br>
+Static이라는 폴더를 이 package가 dist 파일로 자동으로 복붙해주는 역할</br>
 (favicon.ico 적용시켜주기 위해 사용) 
 
 Terminal
