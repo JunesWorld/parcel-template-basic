@@ -17,7 +17,7 @@ Static이라는 폴더를 이 package가 dist 파일로 자동으로 복붙해�
 (favicon.ico 적용시켜주기 위해 사용) 
 
 Terminal
-- `npm i -D parcel-plugin-static-files-co`
+- `npm install -D parcel-plugin-static-files-copy`
 
 package.json
 ``` 
