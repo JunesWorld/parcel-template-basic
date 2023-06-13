@@ -86,3 +86,10 @@ npm i -D @babel/core @babel/preset-env
 
 - 비동기 async 오류 해결
   - ```npm i -D @babel/plugin-transform-runtime```
+
+## CLI(Command Line Interface) : 단어로 하는 명령둘
+
+구글 parcel 검색 -> Parcel 한국어판 -> 시작하기 -> 커맨드 라인 인터페이스</br>
+[Parcel 한국어판](https://ko.parceljs.org/)
+- HMR(Hot Module Replacement) : 런타임에 페이지 새로고침 없이 수정된 내용을 자동으로 갱신하는 방식
+- 포트 번호 변경 : package.json -> dev : --port 1216
