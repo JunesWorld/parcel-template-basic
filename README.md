@@ -49,3 +49,12 @@ package.json
   "last 2 versions"
 ]
 ```
+
+## .postcssrc.js에서 rc
+rc = Runtime Configuration = 구성 파일</br>
+[ESM] : brower에서 동작
+- postcssrc 파일은 bundler를 통해 변환하는 용도로 사용 browser에서 동작하는 것이 아니라 NodeJS 환경에서 동작(NodeJS는 COMMONJS 사용)
+- import / export 기능
+- Node.js에서는 지원하지 X -> CommonJS
+- import = require()
+- export = module.exports
